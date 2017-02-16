@@ -17,3 +17,5 @@ Route::get('/', function () {
 
 Route::get('/editoras', 'EditoraController@index');
 Route::get('/editoras/{editora}', 'EditoraController@show');
+Route::get('/livros', 'LivroController@index');
+Route::get('/livros/{livro}', 'LivroController@show');
